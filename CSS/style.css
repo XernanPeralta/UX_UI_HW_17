@@ -1,0 +1,37 @@
+.inline-block {
+    display: inline-block;
+    vertical-align: top;
+}
+.logo {
+    left: 100px;
+    text-align: center;
+}
+.navigation {
+    width: 73%;
+    padding: 1%;
+}
+.ulNavigation {
+    width: 50%;
+    margin-left: auto;
+}
+.heroImg {
+    margin-left: 100px;
+    align-self: left;
+    border-radius: 1%;
+}
+.footer {
+    background-color: #e5e5e5;
+    padding: center;
+}
+.column {
+    float: left;
+    width: 33%;
+    padding: 0 100px;
+}
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas:
+    "heroImg content"
+}
